@@ -4,7 +4,9 @@ This repository contains an advanced, modular Python project for data analysis. 
 
 ## Repository Structure
 
+```
 Data_analysis/ ├── README.md ├── requirements.txt ├── setup.py             # (optional) └── src/ ├── init.py ├── data_generation.py ├── eda.py ├── supervised_learning.py ├── clustering.py └── main.py
+```
 
 - **src/**: Contains all the Python modules.
   - `data_generation.py`: Generates synthetic data with missing values.
@@ -26,15 +28,17 @@ Data_analysis/ ├── README.md ├── requirements.txt ├── setup.py
 
 2. Create a virtual environment (optional but recommended)
 
+```bash
 python -m venv venv
 mac: source venv/bin/activate    
 On Windows: venv\Scripts\activate
-
+```
 
 3. Install the required packages
 
+```python
 pip install -r requirements.txt
-
+```
 
 
 Usage
