@@ -5,7 +5,17 @@ This repository contains an advanced, modular Python project for data analysis. 
 ## Repository Structure
 
 ```
-Data_analysis/ ├── README.md ├── requirements.txt ├── setup.py             # (optional) └── src/ ├── init.py ├── data_generation.py ├── eda.py ├── supervised_learning.py ├── clustering.py └── main.py
+Data_analysis/ 
+├── README.md
+├── requirements.txt
+├── setup.py # (optional)
+└── src/ 
+├── init.py 
+├── data_generation.py 
+├── eda.py 
+├── supervised_learning.py 
+├── clustering.py 
+└── main.py
 ```
 
 - **src/**: Contains all the Python modules.
@@ -23,7 +33,7 @@ Data_analysis/ ├── README.md ├── requirements.txt ├── setup.py
 
    ```bash
    git clone https://github.com/GamingOP69/Data-analysis.git
-   cd advanced_data_analysis
+   cd Data-analysis
    ```
 
 2. Create a virtual environment (optional but recommended)
